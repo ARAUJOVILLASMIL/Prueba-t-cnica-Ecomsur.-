@@ -1,0 +1,89 @@
+
+.disabledButton  {
+    pointer-events: none;
+    cursor: not-allowed;
+    
+}
+
+.imagen {
+    display: flex;
+    flex-wrap: wrap;
+height: 150px;
+width: 150px;
+
+}
+/* cajitas para moldear elemntos */
+.container{
+background: black;
+align-items: center;
+margin-top: 1rem;
+width: 300px;
+display: flex;
+justify-content: center;
+flex-direction:column;
+border-radius: 10px;
+padding: 1rem;
+gap: 1rem;
+
+
+}
+
+/* contiene las cajitas de todas las cartas */
+.container-card{
+position: absolute;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+width: 100%;
+gap: 2rem;
+ 
+
+
+}
+
+.title{
+    justify-content: center;
+}
+
+/* ESTILOS DEL HEADER */
+.header{
+    margin-bottom: 1rem;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem ;
+}
+
+.shopping{
+
+}
+.car-button{
+    background: black;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.car-button img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.productos-añadidos{
+    gap: 1rem;
+    width: 30%;
+    float: right;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 10;
+    background: rgb(48, 46, 46);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+   
+}
+.show {
+    padding: 1rem;
+}
+
+
